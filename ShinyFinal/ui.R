@@ -67,4 +67,4 @@ shinyUI = fluidPage(fluidRow(column(2,img(src='header_logo.png', width=150, heig
            singleton( tags$head(tags$script(src = "d3.tip.min.js"))),
            singleton( tags$head(tags$script(src = "foodMap.js"))))),
        fluidRow(dataTableOutput(outputId="table2")),
-       fluidRow(HTML('<a href="http://embed.plnkr.co/jRIGKXMZLDn5xrMJgqTl/preview">Switch to Yelp User Preference Search</a>')))
+       fluidRow(HTML('<a href="http://run.plnkr.co/plunks/jRIGKXMZLDn5xrMJgqTl/">Switch to Yelp User Preference Search</a>')))
