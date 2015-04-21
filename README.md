@@ -6,4 +6,8 @@
 
 *[Yelp User Preference Search](http://run.plnkr.co/plunks/jRIGKXMZLDn5xrMJgqTl/)*
 
+*[Food Map](https://cdn.rawgit.com/CUDSY/Yelp/master/FoodMap/foodMap.html)*
+
+
+
 
