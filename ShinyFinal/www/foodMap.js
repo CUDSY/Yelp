@@ -158,7 +158,7 @@ function optPoint2(lenSquare){
             var uX = thisPt[0] - lenSquare - lenMargin;
             var uY = thisPt[1] + lenSquare + lenMargin
         }
-        var thisSquare = [[uX,uY],[uX+lenSquare,uX-lenSquare]];
+        var thisSquare = [[uX,uY],[uX+lenSquare,uY-lenSquare]];
         if (checkOverlap(thisSquare, sqrs, q) == 1) {
             return sortedTmp[i]
         }
