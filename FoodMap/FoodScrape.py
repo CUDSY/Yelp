@@ -90,7 +90,7 @@ foodFrame = pd.DataFrame(store)
 
 # Scrape urls of photos given the photo url of each food item previously scraped
 photos = []
-photourls = test[test.photo_url != ''][['foodkey', 'photo_url']] 
+photourls = foodFrame[foodFrame.photo_url != ''][['foodkey', 'photo_url']] 
 
 photostore = []
 for i in range(len(photourls)):
@@ -112,8 +112,11 @@ photoFrame.to_csv("photoFrame.csv", encoding="utf-8")
 
 # Joining the photo information with the food metadata
 index_food = foodFrame.set_index('foodkey')
-index_photo = photounique.set_index('foodkey')
+index_photo = photoFrame.set_index('foodkey')
 photojoin = index_food.join(index_photo, how='inner')
+
+# Filtering for photos that has reviews
+photorem = photojoin[photojoin.review_num > 0]
 
 
 # Additional scraping for price range of restaurants
