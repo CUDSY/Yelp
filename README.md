@@ -2,4 +2,6 @@
 
 *[Yelp Similarity Recommendation System](http://jmrosen155.shinyapps.io/YelpRecommendationSystemFinal)*
 
-*[Yelp User Preference Search](http://embed.plnkr.co/jRIGKXMZLDn5xrMJgqTl/preview)*
+*[Yelp User Preference Search](http://run.plnkr.co/plunks/jRIGKXMZLDn5xrMJgqTl/)*
+
+
