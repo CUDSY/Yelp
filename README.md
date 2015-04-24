@@ -8,6 +8,4 @@
 
 *[Food Map](http://www.samgshare.com/edav/FoodMap/foodMap.html)*
 
-
-
-
+*[Write-Up](https://cdn.rawgit.com/CUDSY/Yelp/master/Write-Up/EDAV:%20Exploring%20the%20Yelp%20Dataset.html)*
